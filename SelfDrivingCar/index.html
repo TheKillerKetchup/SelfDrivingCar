@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Self-Driving Car(No Libraries)</title>
+        <link rel = "stylesheet" href = "styles.css">
+    </head>
+    <body>
+        <canvas id = "carCanvas"></canvas>
+        <div id = "verticalButtons">
+            <button onclick = "save(1)">BRAIN1 💾</button>
+            <button onclick = "save(2)">BRAIN2 💾</button>
+            <button onclick = "discard(1)">BRAIN1 🗑️</button>
+            <button onclick = "discard(2)">BRAIN2 🗑️</button>
+        </div>
+        <canvas id = "networkCanvas"></canvas>
+        <!--
+            <script src = "visualizer.js"></script> 
+        -->
+        <script src = "visualizer.js"></script> 
+        <script src = "network.js"></script>
+        <script src = "sensor.js"></script>
+        <script src = "utils.js"></script>
+        <script src = "car.js"></script>
+        <script src = "road.js"></script>
+        <script src = "controls.js"></script>
+        <script src = "main.js"></script>
+    </body>
+</html>
